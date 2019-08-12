@@ -5,7 +5,7 @@ let Puppeteer
 
 try {
   // https://github.com/GoogleChrome/puppeteer/pull/3208
-  Puppeteer = require('puppeteer-core')
+  Puppeteer = chromium.puppeteer;
 } catch (err) {
   console.warn(`
     Puppeteer is missing. :-)
